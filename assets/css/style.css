@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+
+/*............. Estilos del header............... */
+
+
+header{
+    background-color: rgba(236, 175, 6, 0.254);
+}
+
+header {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.fontT{
+    font-size: 30px;
+}
+
+
+
+
+
+/*................... Estilos del Carrusel............ */
+
+
+main{
+    background-color: rgba(250, 235, 215, 0.465);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+    
+        
+}
+
+
+.fm{
+    border-color: black;
+    border-style: solid;
+    border-radius:12px ;
+    width: 60%;
+}
+.jb{
+    width: 70%;
+    
+ 
+    
+}
+
+.jb img{
+    
+    margin-top: 30px;
+    width: 100%;
+
+}
+/*................. Estilos del Formulario de contacto .............*/
+.ConteFmc{
+    width: 80%;
+    text-align: center;
+    margin: 30px 0;
+    padding: 15px;
+    background-color: rgba(238, 6, 6, 0.119);
+    border-radius: 8px;
+}
+
+
+.ConteFmc form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.ConteFmc form input{
+    width: 50%;
+    padding: 2px 8px;
+}
+.ConteFmc form button{
+    padding: 2px 8px;
+    margin: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+}
+
+
+
+
+/* Estilos de la section promociones de la semana */
+.divCDf{
+    text-align: center;
+}
+.contPromo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    margin: 12px;
+    padding: 5px;
+    width: 30%;
+    text-align: center;
+    transition: 300ms;
+}
+.card:hover{
+    box-shadow: 1px 2px 3px;
+}
+.card img{
+    width: 100%;
+}
+.card .p1{
+    color: black;
+    margin: auto;
+}
+.card p{
+    color: rgb(5, 177, 5);
+}
+
+@media (max-width:770px) {
+    .contPromo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+/*........... Estilos del footer................... */
+footer{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    background-color: rgba(236, 175, 6, 0.254);
+}
+
+.ContacFoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: 8px;
+}
+.ContacFoot div{
+    margin: 8px;
+}
